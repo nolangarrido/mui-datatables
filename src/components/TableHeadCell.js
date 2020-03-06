@@ -136,6 +136,7 @@ class TableHeadCell extends React.Component {
             className={classes.toolButton}
             tabIndex={0}>
             <Tooltip
+              interactive
               title={
                 options.textLabels.body.columnHeaderTooltip
                   ? options.textLabels.body.columnHeaderTooltip(column)
