@@ -174,6 +174,7 @@ class TableHeadCell extends React.Component {
             {children}
             {hint && (
               <Tooltip
+                interactive
                 title={hint}
                 placement={'bottom-end'}
                 classes={{
